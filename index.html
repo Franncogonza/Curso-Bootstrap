@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Curso Bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Franco Gonzalez</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+			aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Features</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Pricing</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Dropdown link
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<header>
+		<div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active d-flex justify-content-center align-items-center"
+					style="background-image: url('img/mac.jpg');">
+					<div class="titulo">
+						<h1 class="text-center text-light">Aca va el titulo de la imagen</h1>
+					</div>
+				</div>
+				<div class="carousel-item d-flex justify-content-center align-items-center"
+					style="background-image: url('img/black.jpg');">
+					<div class="titulo">
+						<h1 class="text-center text-light">Aca va el titulo de la imagen</h1>
+					</div>
+				</div>
+				<div class="carousel-item d-flex justify-content-center align-items-center"
+					style="background-image: url('img/apple.jpg');">
+					<div class="titulo">
+						<h1 class="text-center text-light">Aca va el titulo de la imagen</h1>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</header>
+	<main>
+		<section>
+			<br>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-4">
+						<div class="card bg-success" style="width: 18rem;">
+							<img src="./img/a.jpg" class="card-img-top img-fluid" alt="...">
+							<div class="card-body">
+								<h5 class="card-title font-italic">Iron Man</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the
+									bulk
+									of the card's content.</p>
+								<a href="#" class="btn btn-dark" onclick="alert('Hello, soy un super heroe')">Ver pelìcula</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-12 col-sm-4">
+						<div class="card bg-danger" style="width: 18rem;">
+						
+							<img src="./img/b.jpg" class="card-img-top img-fluid" alt="...">
+							<div class="card-body">
+								<h5 class="card-title font-italic">Capitan America</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the
+									bulk
+									of the card's content.</p>
+								<a href="#" class="btn btn-dark" onclick="alert('Hello, soy un super heroe')">Ver pelìcula</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-4">
+						<div class="card bg-info" style="width: 18rem;">
+							<img src="./img/c.jpg" class="card-img-top img-fluid" alt="...">
+							<div class="card-body">
+								<h5 class="card-title font-italic">Dareevil</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the
+									bulk
+									of the card's content.</p>
+								<a href="#" class="btn btn-dark " onclick="alert('Hello, soy un super heroe') ">Ver pelìcula</a>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<br><br>
+	
+				
+	</main>
+	<section><br>
+	<h2 class="text-center ">Cual es super heroe es tu favorito</h2>
+	<br>
+	<div class="input-group mb-3">
+			<div class="input-group-prepend">
+			  <label class="input-group-text" for="inputGroupSelect01">Options</label>
+			</div>
+			<select class="custom-select" id="inputGroupSelect01">
+			  <option selected>Elegi tu super heroe favorito...</option>
+			  <option value="1">batman</option>
+			  <option value="2">robin</option>
+			  <option value="3">iron man</option>
+			</select>
+		  </div>
+		</section><br>
+
+		
+  <section class="pyu=5">
+		<div class="container">
+				<div class="card mb-auto m-auto " style="max-width: 540px;">
+						<div class="row ">
+						  <div class="col-md-4">
+							<img src="./img/cuadrado.jpg" class="card-img rounded-circle img-fluid" alt="...">
+						  </div>
+						  <div class="col-md-8">
+							<div class="card-body">
+							  <h3 class="card-title">Batman</h3>
+							  <p class="card-text  text-justify">Batman es un personaje creado por los estadounidenses Bob Kane y Bill Finger, ​ y propiedad de DC Comics</p>
+							  <p>
+									<a class="btn btn-primary bg-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+									  Màs info
+									</a>
+
+								  </p>
+								  <div class="collapse" id="collapseExample">
+									<div class="card card-body text-justify">
+											Batman (conocido inicialmente como The Bat-Man y en español como el Hombre Murciélago) es un personaje creado por los estadounidenses Bob Kane y Bill Finger,5​ y propiedad de DC Comics. Apareció por primera vez en la historia titulada «El caso del sindicato químico» de la revista Detective Comics N.º 27, lanzada por la editorial National Publications el 30 de marzo de 1939.
+
+											La identidad secreta de Batman es Bruce Wayne (Bruno Díaz en algunos países de habla hispana),6​7​8​ un millonario magnate empresarial y filántropo dueño de Empresas Wayne en Gotham City. Después de presenciar el asesinato de sus padres, el Dr. Thomas Wayne y Martha Wayne en un violento y fallido asalto cuando era niño, juró venganza contra los criminales, un juramento moderado por el sentido de la justicia. Bruce Wayne se entrena física e intelectualmente y crea un traje inspirado en los murciélagos para combatir el crimen, con sus gadgets de combate del batcinturón y sus vehículos.9​
+
+											A
+											Se trata de uno de los personajes más emblemáticos de DC Comics. Dada su buena aceptación, obtuvo su propia revista en 1940. Tres años después, Columbia Pictures estrenó la primera adaptación para la televisión del personaje, a la cual le siguió la serie Batman y Robin, en 1949. A mediados de la década de 1960, se lanzó otra serie titulada Batman, que utilizó un concepto más «camp» que terminó apartándolo de su tono sombrío con el que originalmente fue concebido. Más adelante, los escritores Dennis O'Neil, Neal Adams y Frank Miller produjeron nuevo material escrito sobre el universo de Batman entre los años 1970 y 1980, retomando el diseño y elementos originales de la franquicia. Se considera que la película homónima de Tim Burton, estrenada en 1989, tuvo un papel importante en la popularidad contemporánea del hombre murciélago, al igual que la serie de filmes iniciada con Batman Begins en 2005, dirigida por Christopher Nolan.10​ Además de las anteriores producciones, existen varias otras más en las que el personaje y sus elementos han sido incorporados.
+									</div>
+								  </div>
+								</div>
+
+							  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  </section>
+				
+					
+					
+					
+					
+					
+					
+					
+					<nav aria-label="Page navigation example" class="m-auto">
+			<ul class="pagination ">
+			  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+			  <li class="page-item"><a class="page-link" href="#">1</a></li>
+			  <li class="page-item"><a class="page-link" href="#">2</a></li>
+			  <li class="page-item"><a class="page-link" href="#">3</a></li>
+			  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+			</ul>
+		  </nav>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script>$('.carousel').carousel({interval: 2000})</script>
+
+</html>
